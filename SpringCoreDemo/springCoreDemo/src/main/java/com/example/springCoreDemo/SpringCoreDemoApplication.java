@@ -28,6 +28,7 @@ public class SpringCoreDemoApplication implements CommandLineRunner{
   }
                 @Override
                 public void run(String... arg0) throws Exception {
+                	System.out.println(" --- Spring Core Demo --- ");
                                 try{
                                 User user = new User();
                                 Scanner sc = new Scanner(System.in);
